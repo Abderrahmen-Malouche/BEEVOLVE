@@ -4,7 +4,7 @@ import RocketBack from "./images/RocketBack.jpg"
 export default [
     {
         name:"League Of  Legends",
-        backImage:URL("./images/leagueOfLegendsBack.jpg"),
+        backImage:{LolBack},
         numberOfCoaches: 25,
     },
     {
