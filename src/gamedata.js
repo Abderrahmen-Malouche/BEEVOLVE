@@ -1,6 +1,7 @@
 import LolBack from "./images/leagueOfLegendsBack.jpg"
 import ValorantBack from "./images/ValorantBack.jpg"
 import RocketBack from "./images/RocketBack.jpg"
+import OverwatchBack from "./images/OverwatchBack.jpg"
 export default [
     {
         name:"League Of  Legends",
@@ -17,5 +18,10 @@ export default [
         backImage:{RocketBack},
         numberOfCoaches: 5,
     },
+    {
+        name:"Overwatch",
+        backImage:{OverwatchBack},
+        numberOfCoaches: 10,
+    }
     
 ]

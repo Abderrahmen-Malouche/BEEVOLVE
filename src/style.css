@@ -357,7 +357,7 @@ z-index:2;
 .team .container {
   padding-top:30px;
   display:grid;
-  grid-template-columns:repeat(auto-fill, minmax(400px,1fr));
+  grid-template-columns:repeat(auto-fill, minmax(300px,1fr));
   column-gap: 40px;
   row-gap: 90px;
   
@@ -446,7 +446,65 @@ z-index:2;
   color:var(--main-color);
   background-color:white;
 }
-
+.testimonials{
+  padding-top:var(--section-padding);
+  padding-bottom:var(--section-padding);
+  background-color:var(--background-color);
+}
+.testimonials .container {
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(300px,1fr));
+  gap:40px;
+}
+.testimonials .box{
+  background-color:white;
+  position:relative;
+  border-radius: 6px;
+  padding:0 20px 15px;
+}
+.testimonials .box img{
+  position:absolute;
+  width:100px;
+  border-radius:50%;
+  right:-10px;
+  top:-50px;
+  border:8px solid var(--secondary-background-color);
+}
+.testimonials .box h3{
+  font-size:25px;
+  font-weight:bold;
+  margin-bottom:12px;
+}
+.testimonials .box span{
+  display:block;
+  padding-bottom:10px;
+  font-size:15px;
+  color:var(--main-color);
+}
+.testimonials .box .filled{
+  color: #ffc107;
+}
+.testimonials .box p{
+  line-height:1.5;
+  padding-bottom:5px;
+  color:#858484;
+}
+.testimonials > button {
+  background-color: var(--main-color);
+  color:white;
+  outline:none;
+  padding:8px 20px;
+  display:flex;
+  margin:50px auto 10px;
+  font-size:25px;
+  border-radius:6px;
+   border-style:none;
+   transition:linear 0.7s;
+ }
+ .testimonials >button:hover{
+   color:var(--main-color);
+   background-color:white;
+ }
 
 
 @keyframes up-and-down {

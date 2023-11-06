@@ -2,6 +2,7 @@ import Header from "./header";
 import Landing from "./landing";
 import Offer from "./offer";
 import Games from "./games";
+import Testimonials from "./testimonials";
 function App() {
   return (
     <div>
@@ -9,6 +10,7 @@ function App() {
     <Landing />
     <Offer />
     <Games />
+    <Testimonials/>
     </div>
   );
 }
