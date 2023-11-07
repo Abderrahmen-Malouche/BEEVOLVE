@@ -3,6 +3,9 @@ import Landing from "./landing";
 import Offer from "./offer";
 import Games from "./games";
 import Testimonials from "./testimonials";
+import Footer from "./footer";
+import Login from "./login";
+import SignUp from "./signup";
 function App() {
   return (
     <div>
@@ -11,6 +14,9 @@ function App() {
     <Offer />
     <Games />
     <Testimonials/>
+    <Footer/>
+    <Login />
+    <SignUp />
     </div>
   );
 }
