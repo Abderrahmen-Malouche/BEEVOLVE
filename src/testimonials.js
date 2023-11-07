@@ -16,12 +16,12 @@ export default function Testimonials(){
         )
     })
     return(
-        <div class="testimonials" id="testionmials">
-        <div class="special-heading">Testimonials</div>
-        <div class="container">
+        <div className="testimonials" id="testionmials">
+        <div className="special-heading">Testimonials</div>
+        <div className="container">
           {reviews}
         </div>
-        <button> See all Reviews </button>
+        <button className="viewmore"> SEE ALL THE REVIEWS </button>
        </div>
     )
 }

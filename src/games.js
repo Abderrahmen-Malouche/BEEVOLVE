@@ -19,7 +19,7 @@ export default function Games(){
         <div className="container">
           {games}
        </div>
-       <button> See all the games </button>
+       <button className="viewmore"> SEE ALL THE GAMES </button>
        </div>
     )
 }

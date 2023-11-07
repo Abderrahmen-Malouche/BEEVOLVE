@@ -117,6 +117,23 @@ a{
     linear-gradient(225deg, white 25%, transparent 25%);
     background-size: 30px 30px;
   }
+  .viewmore {
+    background-color: var(--main-color);
+    color:white;
+    outline:none;
+    padding:8px 20px;
+    display:flex;
+    margin:50px auto 10px;
+    font-size:25px;
+    border-radius:6px;
+     border-style:none;
+     transition:linear 0.7s;
+   }
+   .viewmore:hover{
+     color:var(--main-color);
+     background-color:white;
+   }
+  
   /* .dots {
     background-image: url("../images/dots.png");
     height: 186px;
@@ -430,22 +447,7 @@ z-index:2;
   color:var(--main-color);
   font-size:20px;
 }
-.team > button {
- background-color: var(--main-color);
- color:white;
- outline:none;
- padding:8px 20px;
- display:flex;
- margin:50px auto 10px;
- font-size:25px;
- border-radius:6px;
-  border-style:none;
-  transition:linear 0.7s;
-}
-.team >button:hover{
-  color:var(--main-color);
-  background-color:white;
-}
+
 .testimonials{
   padding-top:var(--section-padding);
   padding-bottom:var(--section-padding);
@@ -489,22 +491,6 @@ z-index:2;
   padding-bottom:5px;
   color:#858484;
 }
-.testimonials > button {
-  background-color: var(--main-color);
-  color:white;
-  outline:none;
-  padding:8px 20px;
-  display:flex;
-  margin:50px auto 10px;
-  font-size:25px;
-  border-radius:6px;
-   border-style:none;
-   transition:linear 0.7s;
- }
- .testimonials >button:hover{
-   color:var(--main-color);
-   background-color:white;
- }
  footer{
   background-color:var(--background-color);
   padding-top:60px;
@@ -717,6 +703,20 @@ footer .lowerpart{
   color:white;
   padding:10px;
   border-style: none;;
+}
+.coaches{
+  padding-top:var(--section-padding);
+  padding-bottom:var(--section-padding);
+  position:relative;
+  background-color:var(--background-color)
+}
+.coaches .container {
+  padding-top:30px;
+  display:grid;
+  grid-template-columns:repeat(auto-fill, minmax(300px,1fr));
+  column-gap: 40px;
+  row-gap: 90px;
+  
 }
 
 @keyframes up-and-down {

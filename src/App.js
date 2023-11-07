@@ -6,6 +6,7 @@ import Testimonials from "./testimonials";
 import Footer from "./footer";
 import Login from "./login";
 import SignUp from "./signup";
+import Coaches from "./coaches";
 function App() {
   return (
     <div>
@@ -14,6 +15,7 @@ function App() {
     <Offer />
     <Games />
     <Testimonials/>
+    <Coaches />
     <Footer/>
     <Login />
     <SignUp />
