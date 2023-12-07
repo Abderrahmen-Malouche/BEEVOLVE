@@ -55,7 +55,7 @@ export default function Login(){
             <i class="fa-solid fa-xmark"></i>
             <div class="text">
                 <h3>Welcome Back</h3>
-                <h4>Need an account? <a href="#">Sign Up</a></h4>
+                <h4>Need an account? <Link to="/signup">Sign Up</Link> </h4>
             </div>
             <div class="information-input">
                 <input 

@@ -8,17 +8,17 @@ export default function Footer(){
           <div className="box">
             <img src={longLogo} alt="BEEVOLVE"/>
             <ul>
-              <li><a href="#" className="facebook">
+              <li><a href="facebook.com" className="facebook" target="_BLANK">
                 <i className="fab fa-facebook-f"></i>
               </a></li>
-              <li><a href="#" className="twitter">
+              <li><a href="x.com" className="twitter" target="_BLANK">
                 <i className="fab fa-twitter"></i>
               </a></li>
-              <li><a href="#" className="youtube">
+              <li><a href="youtube.com" className="youtube" target="_BLANK">
                 <i className="fab fa-youtube"></i>
               </a></li>
             </ul>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus maxime, nemo recusandae quaerat aliquid at harum dolores eius id.</p>
+            <p>BEEVOLVE is a website where gamers can login and have access to everything related to gaming from tutorials , funny clips , their best players and coaches performance . It is created to limit the gamers search on google or other search engine . So if you are a gamer , you just go in and you have access to everything . </p>
           </div>
           <div className="links">
             <ul>

@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 export default function SignUp(){
     const [dataForm,setDataForm]=React.useState({
         username:"",email:"",password:""
@@ -56,7 +56,7 @@ export default function SignUp(){
             <i class="fa-solid fa-xmark"></i>
             <div class="text">
                 <h3>Create Account</h3>
-                <h4>Alread y have an account <a href="#">Sign in</a></h4>
+                <h4>Alread y have an account <Link to="/Login">Login </Link></h4>
             </div>
             <div class="information-input">
             <input
